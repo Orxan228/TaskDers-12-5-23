@@ -1,14 +1,19 @@
 import React, { useEffect, useState } from 'react'
+import { useDispatch } from 'react-redux'
+import { add } from '../../../Store/cardSlice'
 import "./Content.css"
 import axios from 'axios'
 const Content = () => {
+const dispatch = useDispatch()
 const [data, setData]= useState([])
     useEffect(()=>{
         axios.get("https://fakestoreapi.com/products").then(res=>{
             setData(res.data)
         })
     })
-
+    const handleAdd = (item)=>{
+        dispatch(add(item))
+    }
   return (
     <>
     <div className="card">
@@ -29,7 +34,7 @@ const [data, setData]= useState([])
                         <div className="card___product___vitrine--item--bottom">
                             <p className='card___product___vitrine--item--bottom--p1'>{item.title}</p>
                             <p className='card___product___vitrine--item--bottom--p2'>{item.price} $</p>
-                            <button className='card___product___vitrine--item--bottom--btn'>Add to cart</button>
+                            <button className='card___product___vitrine--item--bottom--btn' onClick={()=> handleAdd(item)}>Add to cart</button>
                         </div>
                     </div>
                     )
