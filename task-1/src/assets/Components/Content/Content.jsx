@@ -18,9 +18,9 @@ const [data, setData]= useState([])
                 <span>Products</span>
             </div>
             <div className="card___product___vitrine">
-                {data.map((item)=>{
+                {data.map((item,index)=>{
                     return(
-                        <div className="card___product___vitrine--item">
+                    <div key={index} className="card___product___vitrine--item">
                         <div className="card___product___vitrine--item--top">
                             <div className="card___product___vitrine--item--top--img">
                                 <img src={item.image} alt="" />
@@ -28,7 +28,7 @@ const [data, setData]= useState([])
                         </div>
                         <div className="card___product___vitrine--item--bottom">
                             <p className='card___product___vitrine--item--bottom--p1'>{item.title}</p>
-                            <p className='card___product___vitrine--item--bottom--p2'>Qiymet</p>
+                            <p className='card___product___vitrine--item--bottom--p2'>{item.price} $</p>
                             <button className='card___product___vitrine--item--bottom--btn'>Add to cart</button>
                         </div>
                     </div>

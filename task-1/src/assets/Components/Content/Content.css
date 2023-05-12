@@ -1,7 +1,6 @@
 .card{
     margin-top: 20px;
     width: 100%;
-    border: solid;
     padding: 10px;
 }
 .card>h3{
@@ -28,17 +27,20 @@
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+    padding: 10px;
+    background-color: rgba(137, 43, 226, 0.267);
+
 }
 .card___product___vitrine--item{
     width: 23%;
     border-radius: 15px;
-    background-color: rgba(191, 106, 224, 0.39);
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     padding: 10px 15px;
-    min-height: 400px;
+    min-height: 500px;
 }
 .card___product___vitrine--item--top{
     width: 100%;
@@ -47,7 +49,8 @@
     justify-content: center;
 }
 .card___product___vitrine--item--top--img{
-    width: 50%;
+    width: 35%;
+    padding: 50px 0;
 }
 .card___product___vitrine--item--top--img>img{
     width: 100%;
@@ -62,6 +65,9 @@
     gap: 5px;
 }
 .card___product___vitrine--item--bottom--p1{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
     font-weight: 500;
     font-size: 20px;
 }
@@ -78,6 +84,5 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    color: white;
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.267);
 }
