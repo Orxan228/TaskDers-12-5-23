@@ -1,88 +1,100 @@
-.card{
-    margin-top: 20px;
-    width: 100%;
-    padding: 10px;
+.card {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
 }
-.card>h3{
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 10px 0;
+.card > h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 0;
 }
-.card___product{
-    width: 100%;
+.card___product {
+  width: 100%;
 }
-.card___product___hero{
-    width: 100%;
-    padding-bottom: 10px;
+.card___product___hero {
+  width: 100%;
+  padding-bottom: 10px;
 }
-.card___product___hero>span{
-    font-size: 30px;
-    font-weight: 700;
+.card___product___hero > span {
+  font-size: 30px;
+  font-weight: 700;
 }
-.card___product___vitrine{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 10px;
-    background-color: rgba(137, 43, 226, 0.267);
-
+.card___product___vitrine {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(137, 43, 226, 0.267);
 }
-.card___product___vitrine--item{
-    width: 23%;
-    border-radius: 15px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 10px 15px;
-    min-height: 500px;
+.card___product___vitrine--item {
+  width: 23%;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px 15px;
+  min-height: 500px;
 }
-.card___product___vitrine--item--top{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card___product___vitrine--item--top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.card___product___vitrine--item--top--img{
-    width: 35%;
-    padding: 50px 0;
+.card___product___vitrine--item--top--img {
+  width: 35%;
+  padding: 50px 0;
 }
-.card___product___vitrine--item--top--img>img{
-    width: 100%;
-    object-fit: cover;
+.card___product___vitrine--item--top--img > img {
+  width: 100%;
+  object-fit: cover;
 }
-.card___product___vitrine--item--bottom{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+.card___product___vitrine--item--bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
-.card___product___vitrine--item--bottom--p1{
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 500;
-    font-size: 20px;
+.card___product___vitrine--item--bottom--p1 {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 20px;
 }
-.card___product___vitrine--item--bottom--p2{
-    font-weight: 500;
-    font-size: 20px;
+.card___product___vitrine--item--bottom--p2 {
+  font-weight: 500;
+  font-size: 20px;
 }
-.card___product___vitrine--item--bottom--btn{
-    margin-top: 15px;
-    border: none;
-    width: 100px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: rgba(137, 43, 226, 0.267);
+.card___product___vitrine--item--bottom--btn {
+  margin-top: 15px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(137, 43, 226, 0.267);
+}
+.card___product___search {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  margin: 10px 0;
+}
+.filter {
+  display: flex;
+  gap: 10px;
 }

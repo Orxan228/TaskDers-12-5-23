@@ -1,0 +1,74 @@
+.cardContent{
+    width: 100%;
+    padding: 10px;
+}
+.cardContent___wrapper{
+    width: 100%;
+    padding: 10px;
+}
+.cardContent___wrapper___vitrine{
+    width: 100%;
+    border-radius: 15px;
+    border: solid;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.cardContent___wrapper___vitrine--item{
+    width: 23%;
+    border: solid;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 15px;
+    min-height: 500px;
+}
+.cardContent___wrapper___vitrine--item--top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardContent___wrapper___vitrine--item--top--img{
+    width: 35%;
+    padding: 50px 0;
+}
+.cardContent___wrapper___vitrine--item--top--img>img{
+    width: 100%;
+    object-fit: cover;
+}
+.cardContent___wrapper___vitrine--item--bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.cardContent___wrapper___vitrine--item--bottom--p1{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 20px;
+}
+.cardContent___wrapper___vitrine--item--bottom--p2{
+    font-weight: 500;
+    font-size: 20px;
+}
+.cardContent___wrapper___vitrine--item--bottom--btn{
+    margin-top: 15px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(137, 43, 226, 0.267);
+}
